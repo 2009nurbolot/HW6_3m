@@ -26,16 +26,16 @@ class MainFragment : Fragment() {
 
     private fun initAdapter() {
         val adapter=BakeryAdapter(arrayListOf(
-            Bakery("bmw"),
-            Bakery("mers"),
-            Bakery("supra"),
-            Bakery("toyota"),
-            Bakery("lexsus"),
-            Bakery("tesla"),
-            Bakery("porshe"),
-            Bakery("lamba"),
-            Bakery("bugati"),
-            Bakery("gelik")
+            Bakery("хлеб"),
+            Bakery("торт"),
+            Bakery("пирог"),
+            Bakery("кекс"),
+            Bakery("ккровсоны"),
+            Bakery("булочка"),
+            Bakery("печенье"),
+            Bakery("пряник"),
+            Bakery("чизкейк"),
+            Bakery("синабоны--")
         ))
         binding.rvBakery.adapter=adapter
     }
